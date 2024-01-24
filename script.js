@@ -1,6 +1,12 @@
 'use strict';
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+let numberOfFilms
+
+function start () {
+        numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+}
+
+
 
 const personalMovieDB = {
         count: numberOfFilms,
